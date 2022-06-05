@@ -55,7 +55,7 @@ export const ChatsList = () => {
         <List>
             {
                 chats.map(item => (
-                    <ChatItem avatar={item.avatar} title={item.title} text={item.text} />
+                    <ChatItem key={item.title} avatar={item.avatar} title={item.title} text={item.text} />
                 ))
             }
         </List>

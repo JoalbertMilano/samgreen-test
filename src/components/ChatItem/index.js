@@ -4,7 +4,7 @@ import Link from "next/link"
 export const ChatItem = ({ avatar = null, title, text }) => {
     return (
         <Link href="/conversation">
-            <ListItemButton alignItems="flex-center">
+            <ListItemButton alignItems="center">
                 <ListItemAvatar>
                     <Avatar>
                         <Typography variant='body1' sx={{ color: '#252538', fontWeight: 500 }}>

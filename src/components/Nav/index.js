@@ -1,11 +1,9 @@
-import { AppBar, Toolbar, Box, IconButton, Avatar, Typography, useTheme } from '@mui/material'
+import { AppBar, Toolbar, Box, IconButton, Avatar, Typography } from '@mui/material'
 import { MoreVert } from '@mui/icons-material'
 
 export const Nav = ({ children, icon, avatar, hideAvatar = false }) => {
-    const theme = useTheme();
-
     return (
-        <AppBar position="sticky" sx={{ mb: 2 }}>
+        <AppBar position="sticky">
             <Toolbar variant="dense">
                 <Avatar sx={{ display: { xs: hideAvatar ? 'none' : 'flex', md: "flex"} }}>
                     <Typography variant='body1' sx={{ color: '#252538', fontWeight: 500 }}>

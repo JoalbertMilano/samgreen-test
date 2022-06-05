@@ -1,7 +1,7 @@
 import { Box, useTheme } from '@mui/material'
 import Head from 'next/head'
 import { Layout } from '../src/components/Layout';
-import { LoginContainer } from '../src/components/LoginContainer';
+import { Login } from '../src/components/Login';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
           <meta name="description" content="Login to get access" />
       </Head>
       <Layout>
-        <LoginContainer />
+        <Login/>
       </Layout>
     </>
 

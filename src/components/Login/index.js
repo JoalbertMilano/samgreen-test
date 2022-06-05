@@ -3,7 +3,7 @@ import Image from 'next/image'
 import NextLink from 'next/link';
 import { InputPrimary } from '../InputPrimary';
 
-export const LoginContainer = () => {
+export const Login = () => {
   const theme = useTheme();
   
     return (

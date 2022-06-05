@@ -1,27 +1,13 @@
-import { Box, Button, Divider, Stack, styled, Typography, Link, useTheme } from '@mui/material'
+import { Box, Button, Divider, Stack, Typography, Link, useTheme } from '@mui/material'
 import Image from 'next/image'
 import NextLink from 'next/link';
 import { InputPrimary } from '../InputPrimary';
-
-const Modal = styled(Box)(({ theme }) => ({
-    position: 'fixed',
-    top: 0,
-    width: "100vw",
-    height: "100vh",
-    [theme.breakpoints.up('md')]: {
-      paddingTop: 32,
-      paddingBottom: 32,
-      paddingLeft: 100,
-      paddingRight: 100,
-    }, 
-}))
 
 export const LoginContainer = () => {
   const theme = useTheme();
   
     return (
-        <Modal>
-            <Stack direction="column" spacing={2} sx={{ flexDirection: { md: "row" }, gap: { md: 8 }, alignItems: { xs: "start", md: "center" }, padding: { xs: 2, md: 4 } , background: theme.palette.secondary.main, height: "100%" }}>
+        <Stack direction="column" spacing={2} sx={{ flexDirection: { md: "row" }, gap: { md: 8 }, alignItems: { xs: "start", md: "center" }, padding: { xs: 2, md: 4 }, height: "100%" }}>
             <Box mt={4} sx={{ order: { md: 2 }, flex: { md: 1 } }}>
                 <Box sx={{ width: "fit-content", margin: "auto" }}>
                 <Image src='/NoMessages.svg' width={160} height={160} />
@@ -50,7 +36,6 @@ export const LoginContainer = () => {
                 </Stack>
                 </Stack>
             </Box>
-            </Stack>
-        </Modal>
+        </Stack>
     )
 }

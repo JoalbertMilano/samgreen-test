@@ -5,7 +5,7 @@ export const Nav = ({ children, icon, avatar, hideAvatar = false }) => {
     const theme = useTheme();
 
     return (
-        <AppBar position="static" sx={{ mb: 2 }}>
+        <AppBar position="sticky" sx={{ mb: 2 }}>
             <Toolbar variant="dense">
                 <Avatar sx={{ display: { xs: hideAvatar ? 'none' : 'flex', md: "flex"} }}>
                     <Typography variant='body1' sx={{ color: '#252538', fontWeight: 500 }}>

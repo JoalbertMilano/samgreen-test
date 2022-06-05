@@ -4,20 +4,22 @@ import { Typography, Box, Stack } from '@mui/material'
 import { ChatBubbleOutline } from '@mui/icons-material'
 import { SearchInput } from '../../src/components/SearchInput'
 import Image from 'next/image'
+import { ChatsList } from '../../src/components/ChatsList'
 
 export default function Chats() {
     return (
         <Layout>
             <Stack direction="row" sx={{ height: "100%"}}>
-                <Box flex={2} sx={{ maxWidth: { md: "320px"} }}>
+                <Box flex={2} sx={{ overflowY: "auto" }}>
                     <Nav icon={<ChatBubbleOutline />} avatar="MM" hideAvatar>
                         <Typography variant="h7" color="inherit" component="div">
                             Mis chats
                         </Typography>
                     </Nav>
                     <SearchInput placeholder="Buscar o empezar nuevo chat" ariaLabel="search chat" />
+                    <ChatsList />
                 </Box>
-                <Stack flex={3} direction="column" alignItems="center" justifyContent="center" sx={{ display: {xs: "none", md: "flex"} }}>
+                <Stack flex={4} direction="column" alignItems="center" justifyContent="center" sx={{ display: {xs: "none", md: "flex"} }}>
                     <Box sx={{ width: "fit-content"}}>
                         <Image src='/NoMessages.svg' width={160} height={160} />
                     </Box>

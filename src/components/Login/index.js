@@ -10,7 +10,7 @@ export const Login = () => {
         <Stack direction="column" spacing={2} sx={{ flexDirection: { md: "row" }, gap: { md: 8 }, alignItems: { xs: "start", md: "center" }, padding: { xs: 2, md: 4 }, height: "100%" }}>
             <Box mt={4} sx={{ order: { md: 2 }, flex: { md: 1 } }}>
                 <Box sx={{ width: "fit-content", margin: "auto" }}>
-                <Image src='/NoMessages.svg' width={160} height={160} />
+                    <Image src='/NoMessages.svg' width={160} height={160} />
                 </Box>
                 <Typography mt={3} variant='h4' sx={{ display: { xs: "none", md: "block" }, fontWeight: 500 }} align='center'>
                 Bienvenidos al chat

@@ -12,6 +12,5 @@ export const ChatInput = ({ placeholder }) => {
 
     return (
         <CustomInput placeholder={placeholder} />
-
     )
 }

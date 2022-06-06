@@ -1,11 +1,11 @@
 import { Layout } from '../../src/components/Layout'
 import { Nav } from '../../src/components/Nav'
-import { Typography, Box, Stack, Toolbar, AppBar, IconButton } from '@mui/material'
-import { ChatBubbleOutline, Search, SentimentSatisfiedAlt } from '@mui/icons-material'
+import { Typography, Box, Stack } from '@mui/material'
+import { ChatBubbleOutline } from '@mui/icons-material'
 import { SearchInput } from '../../src/components/SearchInput'
 import { ChatsList } from '../../src/components/ChatsList'
 import { WelcomeChat } from '../../src/components/WelcomeChat'
-import { ChatInput } from '../../src/components/ChatInput'
+import { ChatContent } from '../../src/components/ChatContent'
 
 export default function Chats() {
     return (
@@ -24,29 +24,7 @@ export default function Chats() {
                 </Box>
                 <Box flex={4} sx={{ display: {xs: "none", md: "flex"} }}>
                     {/* <WelcomeChat /> */}
-
-                    <Stack flex={1} direction="column" sx={{ height: "100%" }}>
-                        <Nav icon={<Search />} avatar="MM" hideAvatar>
-                            <Typography variant="caption" color="inherit" component="div">
-                                Miracle Mango
-                            </Typography>
-                            <Typography variant="caption" color="inherit" component="div">
-                                últ. vez hoy a la(s) 4:22 p. m.
-                            </Typography>
-                        </Nav>
-                        <Box flex={1}>
-                            test
-                        </Box>
-                        <AppBar position="static">
-                            <Toolbar variant="dense">
-                                <IconButton color='inherit'>
-                                    <SentimentSatisfiedAlt />
-                                </IconButton>
-                                <ChatInput placeholder='Escribe un mensaje aquí' />
-                            </Toolbar>
-                        </AppBar>
-                    </Stack>
-
+                    <ChatContent title="Miracle Mango" status="últ. vez hoy a la(s) 4:22 p. m." avatar="MM" />
                 </Box>
             </Stack>
         </Layout>

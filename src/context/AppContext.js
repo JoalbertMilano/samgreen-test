@@ -3,13 +3,14 @@ import { createContext, useState, useMemo } from 'react';
 export const AppContext = createContext(null);
 
 const initialState = {
-    welcome: false,
+    welcome: true,
+    currentChat: null,
 }
 
 export const AppContextProvider = ({ children }) => {
-    const [ state, setState ] = useState(initialState);
+    const [ chatStatus, setChatStatus ] = useState(initialState);
 
-    const values = useMemo(() => ({ state, setState }), [ state ]); 
+    const values = useMemo(() => ({ chatStatus, setChatStatus }), [ chatStatus ]); 
 
     return (
         <AppContext.Provider value={values}>

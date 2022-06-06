@@ -10,8 +10,8 @@ export const MessageSent = ({ text, time }) => {
 
     return (
         <Box>
-            <Stack direction="row" ml={12}>
-                <MessageContainer direction="column" flex={1}>
+            <Stack direction="row" ml={12} sx={{ justifyContent: "flex-end" }}>
+                <MessageContainer direction="column">
                     <Typography variant="body1">
                         {text}
                     </Typography>

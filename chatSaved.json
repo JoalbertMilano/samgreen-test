@@ -1,0 +1,356 @@
+{
+    "data": [
+        {
+            "title": "Miracle Mango",
+            "avatar": "MM", 
+            "text": "Lorem ipsum dolor sit amet, consectetur ...",
+            "status": "últ. vez hoy a la(s) 4:22 p. m.", 
+            "messages": [
+                {
+                    "type": 0,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:48 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:49 p. m."
+                },               
+                {
+                    "type": 1,
+                    "content": "Adipiscing elit.", 
+                    "time": "9:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "9:50 p. m."
+                }
+            ]
+        },
+        {
+            "title": "Ashlynn Geidt",
+            "avatar": "AG", 
+            "text": "Lorem ipsum dolor sit amet 😴🧐",
+            "status": "últ. vez ayer a la(s) 8:22 a. m.",
+            "messages": [
+                {
+                    "type": 1,
+                    "content": "Lorem.", 
+                    "time": "12:01 1. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "12:02 p. m."
+                },               
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "12:06 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "12:07 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem.", 
+                    "time": "12:46 a. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "1:49 a. m."
+                },               
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "2:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "12:06 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "12:07 p. m."
+                } 
+            ]
+        },
+        {
+            "title": "Haylie Bergson",
+            "avatar": "MG", 
+            "text": "Lorem ipsum dolor sit amet, consecte...",
+            "status": "En línea",
+            "messages": [
+                {
+                    "type": 0,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:48 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:49 p. m."
+                },               
+                {
+                    "type": 1,
+                    "content": "Adipiscing elit.", 
+                    "time": "9:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "9:50 p. m."
+                }
+            ]
+        },
+        {
+            "title": "Marilyn Carder",
+            "avatar": "MC", 
+            "text": "Lorem ipsum dolor sit amet, consecte...",
+            "status": "En línea",
+            "messages": [
+                {
+                    "type": 1,
+                    "content": "Lorem.", 
+                    "time": "12:01 1. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "12:02 p. m."
+                },               
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "12:06 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "12:07 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem.", 
+                    "time": "12:46 a. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "1:49 a. m."
+                },               
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "2:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "12:06 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "12:07 p. m."
+                } 
+            ] 
+        },
+        {
+            "title": "Grupo de Trabajo",
+            "avatar": "GT", 
+            "text": "+52 1 222 555 5555: Lorem ipssum dolor...",
+            "status": "últ. vez hoy a la(s) 4:22 p. m.",
+            "messages": [
+                {
+                    "type": 0,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:48 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:49 p. m."
+                },               
+                {
+                    "type": 1,
+                    "content": "Adipiscing elit.", 
+                    "time": "9:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "9:50 p. m."
+                }
+            ]
+        },
+        {
+            "title": "Jaxson Rosser",
+            "avatar": "JR", 
+            "text": "Lorem ipsum dolor sit amet, consectetur ...",
+            "status": "últ. vez ayer a la(s) 12:22 a. m.",
+            "messages": [
+                {
+                    "type": 1,
+                    "content": "Lorem.", 
+                    "time": "12:01 1. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "12:02 p. m."
+                },               
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "12:06 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "12:07 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem.", 
+                    "time": "12:46 a. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "1:49 a. m."
+                },               
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "2:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "12:06 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "12:07 p. m."
+                } 
+            ] 
+        },
+        {
+            "title": "Kaiya Westervelt",
+            "avatar": "KW", 
+            "text": "Lorem ipsum dolor sit amet, consectetur ..." ,
+            "status": "últ. vez hoy a la(s) 6:43 p. m.",
+            "messages": [
+                {
+                    "type": 0,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:48 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:49 p. m."
+                },               
+                {
+                    "type": 1,
+                    "content": "Adipiscing elit.", 
+                    "time": "9:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "9:50 p. m."
+                }
+            ] 
+        },
+        {
+            "title": "+52 1 222 555 5555",
+            "avatar": "UN", 
+            "text": "Lorem ipsum dolor sit amet 😛😴",
+            "status": "En línea",
+            "messages": [
+                {
+                    "type": 1,
+                    "content": "Lorem.", 
+                    "time": "12:01 1. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "12:02 p. m."
+                },               
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "12:06 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "12:07 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem.", 
+                    "time": "12:46 a. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "1:49 a. m."
+                },               
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "2:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": "Adipiscing elit.", 
+                    "time": "12:06 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "12:07 p. m."
+                } 
+            ]
+        },
+        {
+            "title": "Alfredo Septimus",
+            "avatar": "AS", 
+            "text": "Lorem ipsum dolor sit amet 😇😄😛😴🧐",
+            "status": "últ. vez ayer a la(s) 12:22 a. m.",
+            "messages": [
+                {
+                    "type": 0,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:48 p. m."
+                }, 
+                {
+                    "type": 1,
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh malesuada sit.", 
+                    "time": "9:49 p. m."
+                },               
+                {
+                    "type": 1,
+                    "content": "Adipiscing elit.", 
+                    "time": "9:49 p. m."
+                },                
+                {
+                    "type": 0,
+                    "content": " Sed nibh malesuada sit.", 
+                    "time": "9:50 p. m."
+                }
+            ] 
+        }
+    ]
+}

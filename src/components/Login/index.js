@@ -32,7 +32,7 @@ export const Login = () => {
                 <Divider flexItem />
                 <Stack direction='row' justifyContent='space-between' sx={{ width: '100%' }}>
                     <NextLink href='/signup'><Link variant="caption" color="primary">No tengo una cuenta</Link></NextLink>
-                    <NextLink href='/signup'><Link variant="caption" color="primary">Recuperar contraseña</Link></NextLink>
+                    <NextLink href='/recovery'><Link variant="caption" color="primary">Recuperar contraseña</Link></NextLink>
                 </Stack>
                 </Stack>
             </Box>

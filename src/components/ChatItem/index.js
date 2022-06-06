@@ -1,13 +1,8 @@
 import { ListItemAvatar, Avatar, ListItemText, Typography, ListItemButton } from "@mui/material"
-import { useContext } from "react"
-import { AppContext } from "../../context/AppContext"
 
-export const ChatItem = ({ avatar = null, title, text }) => {
-    const { state } = useContext(AppContext);
-     
-    console.log(state)
+export const ChatItem = ({ avatar = null, title, text, onClick }) => {
     return (
-        <ListItemButton alignItems="center">
+        <ListItemButton alignItems="center" onClick={onClick}>
             <ListItemAvatar>
                 <Avatar>
                     <Typography variant='body1' sx={{ color: '#252538', fontWeight: 500 }}>

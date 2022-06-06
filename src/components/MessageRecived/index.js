@@ -15,7 +15,7 @@ export const MessageRecived = ({ avatar, text, time }) => {
                         { avatar }
                     </Typography>
                 </Avatar>
-                <MessageContainer direction="column" flex={1}>
+                <MessageContainer direction="column">
                     <Typography variant="body1">
                         {text}
                     </Typography>

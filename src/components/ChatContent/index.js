@@ -1,4 +1,4 @@
-import { Typography, Box, Stack, Toolbar, AppBar, IconButton } from '@mui/material'
+import { Typography, Stack, Toolbar, AppBar, IconButton } from '@mui/material'
 import { Search, SentimentSatisfiedAlt } from '@mui/icons-material'
 import { ChatInput } from '../ChatInput'
 import { Nav } from '../Nav'
